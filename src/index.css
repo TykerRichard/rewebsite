@@ -1,14 +1,76 @@
-.BannerLogo{
+.Banner{
   max-width: 100%;
   width: 100%;
   height: 15pc;
+  & img{
+    width: inherit;
+    height: inherit;
+  }
+}
+
+.Menu{
+  max-height: 15%;
+}
+
+
+.Navbar{
+  width: auto;
+  background-color: cadetblue;
+  height: 50px;
+    & ul {
+      margin: 0px;
+      position: relative;
+      list-style: none;
+      display:flex;
+      justify-content: flex-end;
+      padding-right: 35%;
+
+    
+    }
+    & li {
+      padding:5px;
+    }
 
 }
 
-.Navbar{
-  background-color: cadetblue;
-  padding-bottom: 25px;
-  width: auto;
+
+.navItems{
+position: relative;
+left:3%;
+top: -30px;
+border-color: red;
+font-size:medium;
+
+    & a{
+      padding:5px;
+
+    }
+
+    & a:visited, a.unvisited,a:-webkit-any-link{
+      text-decoration: none;
+      color:black;
+      text-decoration-line: none;
+    }
+
+    & a:hover{
+      background-color:forestgreen;
+      border-bottom-color: aquamarine;
+      border-bottom-style: solid;
+      border-top-style: hidden;
+      border-radius: 4px;
+      
+    }
+}
+
+.logoContainer{
+ position: relative; 
+ left: 2%;
+ bottom: -7px;
+}
+
+.logo{
+  width: inherit;
+  height: inherit;
 }
 
 body {

@@ -1,18 +1,25 @@
-import rebanner from './rebanner.jpeg'
+import logo from './logo.png'
 
-function NavBar(){
-    
 
-return(
-    <><div className='Navbar'>
-abc
-    </div>
-    <div className="Banner">
-            <img className='BannerLogo' src={rebanner} alt="default Banner"></img>
 
-        </div></>  
+    const NavBar= () => {
+    return(
+        <div className='Navbar'>
+            <span className='logoContainer'><img className='logo' src={logo} alt="Logo" /></span>
+            <span className='navItems'><ul>
+                <li><a href='/buy'>Buy</a></li>
+                <li><a href='/sell'>Sell</a></li>
+                <li><a href='/Rent'>Rent</a></li>
+                <li><a href='/Mortgage'>Mortgage</a></li>
+                <li><a href='/Realtors'>Find Realtors</a></li>
+                <li><a href='/MyHome'>My Home</a></li>
+                <li><a href='/News'>News & Insight</a></li>
 
-);
+            </ul></span>
+
+        </div>
+
+    );
 
 
 
