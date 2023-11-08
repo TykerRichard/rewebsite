@@ -1,5 +1,5 @@
 import rebanner from './rebanner.png';
-import SearchBar from './searchBar';
+// import SearchBar from './searchBar';
 
 const Banner =() =>{ 
     return(
