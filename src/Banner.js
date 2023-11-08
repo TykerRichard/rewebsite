@@ -5,7 +5,7 @@ const Banner =() =>{
     return(
         <div className="Banner">
         <img src={rebanner} alt="default banner"/>
-        <SearchBar />
+   
 
 </div>
     );
